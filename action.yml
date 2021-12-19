@@ -1,0 +1,13 @@
+name: 'Google App Engine environment variables compiler'
+description: 'Compiles app.yaml environment variables with GitHub Secrets'
+inputs:
+  path:
+    description: 'Path to app.yaml'
+    required: false
+    default: 'app.yaml'
+branding:
+  color: 'blue'
+  icon: 'download-cloud'
+runs:
+  using: 'node12'
+  main: 'index.js'

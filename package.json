@@ -1,0 +1,14 @@
+{
+  "name": "gae-env-compile-action",
+  "version": "1.0.0",
+  "description": "Google App Engine environment variables compiler",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Jacopo Andrea Nuzzi",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}
