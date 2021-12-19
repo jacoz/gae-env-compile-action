@@ -23,7 +23,7 @@ env_variables:
 workflow:
 ```yaml
 id: 'gae-env-compile'
-uses: 'jacoz/gae-env-compile-action@v1.0'
+uses: 'jacoz/gae-env-compile-action@v0.1'
 env:
   SECRET: ${{ secrets.MY_SECRET }}
   ANOTHER_SECRET: ${{ secrets.OTHER_SECRET }}
