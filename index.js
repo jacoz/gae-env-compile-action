@@ -30,7 +30,7 @@ try {
     });
 
     const compiledDocument = yaml.dump(doc);
-    fs.writeFileSync(path + ".2.yaml", compiledDocument)
+    fs.writeFileSync(path, compiledDocument)
 
     console.log('done: app.yaml file compiled successfully');
 } catch (error) {
